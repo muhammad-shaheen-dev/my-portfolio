@@ -7,6 +7,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Mono&family=Inter:wght@400;600;700;800;900&family=Permanent+Marker&display=swap">
 <link rel="preload" as="image" href="images/portrait.webp" type="image/webp">
+<script>document.documentElement.className="js";setTimeout(function(){document.querySelectorAll(".reveal").forEach(function(e){e.classList.add("in")})},2500)</script>
+<meta name="description" content="Muhammad Shaheen — SEO Specialist, WordPress Expert and Affiliate Marketer. Portfolio, projects and CV.">
+<meta name="theme-color" content="#020403">
 <title>Muhammad Shaheen — SEO Specialist</title>
 <style>
 :root{--g:#b8ff28;--bg:#020403;--card:#080d09;--line:#273128;--muted:#9ca59d;--w:#f5f7f1}
@@ -25,7 +28,7 @@
 .skillpanel{display:grid;grid-template-columns:180px 1fr;gap:25px;align-items:center}.skilltitle{font:700 31px "Barlow Condensed";text-transform:uppercase}.skillsub{font-size:9px;color:#a6afa6;margin-top:4px}.skillgrid{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:12px}.skill{padding:18px 10px;text-align:center;background:#0a0f0b;border:1px solid #293229;border-radius:7px;font-size:8px;min-height:58px}.skill strong{display:block;font-size:23px;color:#fff;margin-bottom:5px}
 .cta{max-width:1380px;margin:15px auto 0;border:1px solid #293329;border-radius:8px;padding:20px 26px;display:grid;grid-template-columns:1fr 1.3fr 160px;gap:25px;align-items:center}.cta h2{font-size:17px}.cta h2 em{display:block;color:var(--g);font:29px "Permanent Marker";font-style:normal}.cta p{font-size:10px;color:#aeb6ae;line-height:1.6}.cta .btn{background:var(--g);color:#061005;text-align:center;padding:15px 20px;font-size:11px;box-shadow:0 0 25px rgba(184,255,40,.12)}
 .footer{max-width:1380px;margin:20px auto 0;padding:17px 8px;border-top:1px solid #222a23;border-bottom:1px solid #222a23;display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:20px}.footer b{font-size:22px;color:var(--g)}.footer{font-size:9px}.footer small{color:#7f887f;display:block;font-size:8px}.foot{font-size:8px;color:#cbd1ca;line-height:1.5}.foot label{display:block;color:#687168;font:7px "DM Mono";margin-bottom:4px}.bottom{padding:13px 2.3vw;display:flex;justify-content:space-between;color:#697169;font:7px "DM Mono"}.bottom em{color:var(--g);font-style:normal}
-.reveal{opacity:0;transform:translateY(18px);transition:.7s}.show{opacity:1;transform:none}
+.js .js .reveal{opacity:0;transform:translateY(18px);transition:.7s}.show{opacity:1;transform:none}
 @keyframes spin{to{transform:rotate(360deg)}}@keyframes spinr{to{transform:rotate(-360deg)}}@keyframes blink{50%{opacity:.35}}@keyframes aura{50%{transform:scale(1.12);opacity:.65}}@keyframes rise{from{opacity:0;transform:translateY(30px) scale(.97)}to{opacity:1;transform:none}}@keyframes float{50%{margin-top:-7px}}@keyframes marquee{to{transform:translateX(-50%)}}
 
 
@@ -221,7 +224,7 @@ body:after{content:"";position:fixed;inset:0;pointer-events:none;z-index:998;opa
 .title em,.lime{ text-shadow:0 0 28px rgba(184,255,40,.14)}
 .edu-panel{background:linear-gradient(145deg,rgba(10,16,11,.86),rgba(3,6,4,.70));backdrop-filter:blur(15px);border-color:rgba(184,255,40,.18)!important}
 .footer{background:linear-gradient(180deg,rgba(6,10,7,.72),rgba(2,4,3,.85));border-top:1px solid rgba(184,255,40,.14);border-bottom:1px solid rgba(184,255,40,.08);backdrop-filter:blur(14px)}
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s cubic-bezier(.2,.8,.2,1)}.reveal.in{opacity:1;transform:none}
+.js .js .reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s cubic-bezier(.2,.8,.2,1)}.js .reveal.in{opacity:1;transform:none}
 @media(max-width:760px){
  .hero:before{width:430px;height:430px;right:50%;top:28%;transform:translateX(50%)}
  .hero:after{right:12%;top:36%}
@@ -230,14 +233,37 @@ body:after{content:"";position:fixed;inset:0;pointer-events:none;z-index:998;opa
 }
 
 
+
+/* ===== V5 VIP ===== */
+#bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#b8ff28,#eaff9a);box-shadow:0 0 14px #b8ff28;z-index:9999}
+#glow{position:fixed;width:420px;height:420px;margin:-210px 0 0 -210px;border-radius:50%;background:radial-gradient(circle,rgba(184,255,40,.08),transparent 65%);pointer-events:none;z-index:1;left:-999px;top:-999px}
+.hero h1{background:linear-gradient(180deg,#fff,#cfd8cc);-webkit-background-clip:text;background-clip:text}
+.hero h1 .lime{background:linear-gradient(90deg,#b8ff28,#e6ff8a,#b8ff28);background-size:200%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shine 5s linear infinite}
+@keyframes shine{to{background-position:200% 0}}
+.roles #typed{color:var(--g)}.roles #typed:after{content:"|";animation:blink2 1s steps(1) infinite}@keyframes blink2{50%{opacity:0}}
+.reviewgrid .review .rh{font:700 14px Inter;margin-bottom:6px}.review q{font-size:13px;line-height:1.6;quotes:none}.review small{font-size:10px}
+.reviewcopy{font-size:12px}.skillsub{font-size:11px}.skill{font-size:11px}
+.skill strong{font-size:20px}.skill span{display:block;color:#98a398;margin-top:4px;font:9px "DM Mono"}
+.btn.primary{position:relative;overflow:hidden}.btn.primary:after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.45),transparent 70%);transform:translateX(-130%);animation:sweep 3.5s ease-in-out infinite}@keyframes sweep{60%,100%{transform:translateX(130%)}}
+#top{position:fixed;right:18px;bottom:18px;width:44px;height:44px;border-radius:50%;border:1px solid rgba(184,255,40,.5);background:rgba(2,4,3,.8);color:var(--g);font-size:18px;cursor:pointer;opacity:0;pointer-events:none;transition:.3s;z-index:90;backdrop-filter:blur(10px)}#top.show{opacity:1;pointer-events:auto}#top:hover{background:var(--g);color:#000}
+.wa{position:fixed;left:18px;bottom:18px;z-index:90}
+.burger{display:none;background:none;border:1px solid rgba(184,255,40,.5);color:var(--g);border-radius:8px;width:40px;height:38px;font-size:18px;cursor:pointer}
+.tag-pill{display:inline-block;margin:3px;padding:5px 10px;border:1px solid #344034;border-radius:20px;font:10px "DM Mono";color:#c8d1c7}
+@media(max-width:900px){
+ .burger{display:block}
+ .links.open{display:flex!important;position:fixed;top:70px;left:0;right:0;flex-direction:column;gap:0;height:auto;background:rgba(2,4,3,.97);border-bottom:1px solid #1f2a20;padding:6px 0}
+ .links.open a{padding:15px 22px;font-size:14px;border-bottom:1px solid #121a13}
+ .reviewgrid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
-<nav class="nav"><a class="brand" href="#home"><span class="ms">MS</span><span>MUHAMMAD SHAHEEN<small>SEO & WordPress Expert</small></span></a><div class="links"><a class="active" href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#reviews">Reviews</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div><div class="nav-actions"><a class="cv-top" href="muhammad-shaheen-cv.html" target="_blank">VIEW CV ↗</a><a class="navbtn" href="mailto:shaheenaryan2244@gmail.com">LET’S WORK →</a></div></nav>
+<nav class="nav"><a class="brand" href="#home"><span class="ms">MS</span><span>MUHAMMAD SHAHEEN<small>SEO & WordPress Expert</small></span></a><div class="links"><a class="active" href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#reviews">Reviews</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div><div class="nav-actions"><button class="burger" id="burger" aria-label="Menu">☰</button><a class="cv-top" href="muhammad-shaheen-cv.html" target="_blank">VIEW CV ↗</a><a class="navbtn" href="mailto:shaheenaryan2244@gmail.com">LET’S WORK →</a></div></nav>
 
 
 <section class="hero" id="home">
-<div class="left reveal"><div class="available"><i></i> Available for Freelance Projects</div><h1>MUHAMMAD<span class="lime">SHAHEEN</span></h1><div class="roles">SEO Specialist <span>|</span> WordPress Expert <span>|</span> Affiliate Marketer</div><p class="desc">I build high-performing websites that rank, attract traffic and generate real results. <strong>5+ years</strong> of experience in SEO, <strong>25+ websites</strong> built/worked on, and <strong>3+ years</strong> of affiliate marketing with ClickBank & WarriorPlus.</p><div class="actions"><a class="btn primary" href="#projects">View My Work →</a><a class="btn" href="muhammad-shaheen-cv.html" target="_blank">VIEW CV ↗</a></div><div class="stats"><div class="stat"><b>5+</b><span>Years Experience</span></div><div class="stat"><b>25+</b><span>Websites</span></div><div class="stat"><b>3+</b><span>Affiliate Years</span></div></div></div>
+<div class="left reveal"><div class="available"><i></i> Available for Freelance Projects</div><h1>MUHAMMAD<span class="lime">SHAHEEN</span></h1><div class="roles">SEO Specialist <span>|</span> WordPress Expert <span>|</span> <b id="typed" data-w="Affiliate Marketer|Link Builder|Website Designer|Keyword Researcher">Affiliate Marketer</b></div><p class="desc">I build high-performing websites that rank, attract traffic and generate real results. <strong>5+ years</strong> of experience in SEO, <strong>25+ websites</strong> built/worked on, and <strong>3+ years</strong> of affiliate marketing with ClickBank & WarriorPlus.</p><div class="actions"><a class="btn primary" href="#projects">View My Work →</a><a class="btn" href="muhammad-shaheen-cv.html" target="_blank">VIEW CV ↗</a></div><div class="stats"><div class="stat"><b data-n="5" data-s="+">5+</b><span>Years Experience</span></div><div class="stat"><b data-n="25" data-s="+">25+</b><span>Websites</span></div><div class="stat"><b data-n="3" data-s="+">3+</b><span>Affiliate Years</span></div></div></div>
 <div class="visual reveal"><div class="aura"></div><img class="portrait" src="images/portrait.webp" width="900" height="935" fetchpriority="high" decoding="async" alt="Muhammad Shaheen"><div class="float seo"><b>▥ SEO</b><span>SPECIALIST</span><small>Research → Optimize</small></div><div class="float aff"><b>♟ AFFILIATE</b><span>MARKETER</span><small>ClickBank / WarriorPlus</small></div><div class="float wp"><b>◉ WORDPRESS</b><span>EXPERT</span><small>Websites + SEO</small></div><div class="float rank"><b>↗ TURN IDEAS</b><span>INTO RANKINGS</span><small>SEO • Strategy • Execution</small></div><div class="badge">SEO EXPERT</div></div>
 </section>
 
@@ -269,6 +295,46 @@ body:after{content:"";position:fixed;inset:0;pointer-events:none;z-index:998;opa
 </section>
 
 
-<section class="section reveal" id="projects"><div class="head"><h2 class="title">☰ FEATURED <em>PROJECTS</em></h2><span class="counter">01 / 06</span></div><div class="projects"><a class="project" href="https://www.sadeempc.com/wondershare-recoverit-14-0-12-11/" target="_blank" rel="noopener"><div class="thumb"><img src="images/project-1.webp" width="800" height="397" alt="SadeemPC website screenshot" loading="lazy"></div><div class="project-info"><small style="color:var(--g);font:7px DM Mono">01</small><h3>SadeemPC</h3><p>https://www.sadeempc.com/wondershare-recoverit-14-0-12-11/</p><div class="tags"><b>SEO</b><b>Design</b><b>Content</b></div></div></a><a class="project" href="http://downlogy.com/" target="_blank" rel="noopener"><div class="thumb"><img src="images/project-2.webp" width="800" height="397" alt="Downlogy website screenshot" loading="lazy"></div><div class="project-info"><small style="color:var(--g);font:7px DM Mono">02</small><h3>Downlogy</h3><p>http://downlogy.com/</p><div class="tags"><b>SEO</b><b>Design</b><b>Speed</b></div></div></a><a class="project" href="https://bestofficialreviews.com/" target="_blank" rel="noopener"><div class="thumb"><img src="images/project-3.webp" width="800" height="396" alt="Best Official Reviews website screenshot" loading="lazy"></div><div class="project-info"><small style="color:var(--g);font:7px DM Mono">03</small><h3>Best Official Reviews</h3><p>https://bestofficialreviews.com/</p><div class="tags"><b>SEO</b><b>Content</b><b>Design</b></div></div></a><a class="project" href="https://primeglance.com/" target="_blank" rel="noopener"><div class="thumb"><img src="images/project-4.webp" alt="Prime Glance website screenshot" loading="lazy" width="800" height="436"></div><div class="project-info"><small style="color:var(--g);font:7px DM Mono">04</small><h3>Prime Glance</h3><p>https://primeglance.com/</p><div class="tags"><b>SEO</b><b>Content</b><b>Design</b></div></div></a></div></section>
+<section class="section reveal" id="projects"><div class="head"><h2 class="title">☰ FEATURED <em>PROJECTS</em></h2><span class="counter">04 PROJECTS</span></div><div class="projects"><a class="project" href="https://www.sadeempc.com/wondershare-recoverit-14-0-12-11/" target="_blank" rel="noopener"><div class="thumb"><img src="images/project-1.webp" width="800" height="397" alt="SadeemPC website screenshot" loading="lazy"></div><div class="project-info"><small style="color:var(--g);font:7px DM Mono">01</small><h3>SadeemPC</h3><p>https://www.sadeempc.com/wondershare-recoverit-14-0-12-11/</p><div class="tags"><b>SEO</b><b>Design</b><b>Content</b></div></div></a><a class="project" href="http://downlogy.com/" target="_blank" rel="noopener"><div class="thumb"><img src="images/project-2.webp" width="800" height="397" alt="Downlogy website screenshot" loading="lazy"></div><div class="project-info"><small style="color:var(--g);font:7px DM Mono">02</small><h3>Downlogy</h3><p>http://downlogy.com/</p><div class="tags"><b>SEO</b><b>Design</b><b>Speed</b></div></div></a><a class="project" href="https://bestofficialreviews.com/" target="_blank" rel="noopener"><div class="thumb"><img src="images/project-3.webp" width="800" height="396" alt="Best Official Reviews website screenshot" loading="lazy"></div><div class="project-info"><small style="color:var(--g);font:7px DM Mono">03</small><h3>Best Official Reviews</h3><p>https://bestofficialreviews.com/</p><div class="tags"><b>SEO</b><b>Content</b><b>Design</b></div></div></a><a class="project" href="https://primeglance.com/" target="_blank" rel="noopener"><div class="thumb"><img src="images/project-4.webp" alt="Prime Glance website screenshot" loading="lazy" width="800" height="436"></div><div class="project-info"><small style="color:var(--g);font:7px DM Mono">04</small><h3>Prime Glance</h3><p>https://primeglance.com/</p><div class="tags"><b>SEO</b><b>Content</b><b>Design</b></div></div></a></div></section>
+
+<section class="section reveal" id="reviews"><div class="panel reviews"><div><div class="reviewtitle">CLIENT <em>REVIEWS</em></div><p class="reviewcopy">What clients say about working with me.</p></div>
+<div class="reviewgrid">
+<div class="review"><div class="stars">★★★★★</div><div class="rh">Client name</div><q>Paste a real client review here (Fiverr / Upwork / WhatsApp).</q><small>Fiverr · Project name</small></div>
+<div class="review"><div class="stars">★★★★★</div><div class="rh">Client name</div><q>Paste a real client review here (Fiverr / Upwork / WhatsApp).</q><small>Upwork · Project name</small></div>
+</div></div></section>
+
+<section class="section reveal" id="skills"><div class="panel skillpanel"><div><div class="skilltitle">CORE <em style="font-style:normal">SKILLS</em></div><p class="skillsub">Tools &amp; expertise I use every day.</p></div>
+<div class="skillgrid">
+<div class="skill"><strong>SEO</strong><span>On-page · Technical</span></div><div class="skill"><strong>WordPress</strong><span>Design · Speed</span></div><div class="skill"><strong>Affiliate</strong><span>ClickBank · WarriorPlus</span></div><div class="skill"><strong>Link Building</strong><span>Outreach · Authority</span></div>
+<div class="skill"><strong>Keywords</strong><span>Research · Intent</span></div><div class="skill"><strong>SEO Audit</strong><span>Fix · Prioritise</span></div><div class="skill"><strong>Content</strong><span>Strategy · Briefs</span></div><div class="skill"><strong>Semrush</strong><span>Google Tools</span></div>
+</div></div></section>
+
+<section class="section reveal" id="contact"><div class="cta"><h2>HAVE A PROJECT?<em>Let’s rank it.</em></h2><p>Need SEO, a fast WordPress website or an affiliate setup? Send me a message and I’ll reply with a clear plan.</p><a class="btn" href="mailto:shaheenaryan2244@gmail.com">EMAIL ME →</a></div></section>
+
+<footer class="footer"><div class="footer-brand"><b>MS</b><small>SEO &amp; WordPress Expert</small></div><div class="foot"><label>EMAIL</label><a href="mailto:shaheenaryan2244@gmail.com">shaheenaryan2244@gmail.com</a></div><div class="foot"><label>LOCATION</label>Bahawalpur, Pakistan</div><div class="foot"><label>CV</label><a href="muhammad-shaheen-cv.html" target="_blank">View / Download ↗</a></div></footer>
+<div class="bottom"><span>© 2026 Muhammad Shaheen</span><span>Built for <em>rankings</em></span></div>
+<div id="bar"></div><div id="glow"></div><button id="top" aria-label="Back to top">↑</button>
+<script>
+(function(){
+var $=function(q,c){return(c||document).querySelectorAll(q)};
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}})},{threshold:.08});
+$(".reveal").forEach(function(e){io.observe(e)});
+// spotlight on cards
+$(".review,.skill,.project,.panel,.cta,.cv-top,.navbtn").forEach(function(c){c.addEventListener("pointermove",function(e){var r=c.getBoundingClientRect();c.style.setProperty("--hx",e.clientX-r.left+"px");c.style.setProperty("--hy",e.clientY-r.top+"px")})});
+// counters
+var cio=new IntersectionObserver(function(e){e.forEach(function(x){if(!x.isIntersecting)return;var el=x.target,n=+el.dataset.n,t=0,st=el.dataset.s||"";var iv=setInterval(function(){t+=Math.max(1,Math.ceil(n/30));if(t>=n){t=n;clearInterval(iv)}el.textContent=t+(t==n?st:"")},35);cio.unobserve(el)})});
+$("[data-n]").forEach(function(e){cio.observe(e)});
+// typed roles
+var ty=document.getElementById("typed");if(ty){var w=ty.dataset.w.split("|"),wi=0,ci=0,del=false;(function tick(){var cur=w[wi];ty.textContent=cur.slice(0,ci);if(!del&&ci<cur.length)ci++;else if(!del){del=true;return setTimeout(tick,1400)}else if(ci>0)ci--;else{del=false;wi=(wi+1)%w.length}setTimeout(tick,del?40:80)})()}
+// progress bar, back-to-top, active link
+var bar=document.getElementById("bar"),top=document.getElementById("top"),links=$(".links a"),secs=["home","about","projects","reviews","skills","contact"].map(function(i){return document.getElementById(i)});
+addEventListener("scroll",function(){var h=document.documentElement,p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;bar.style.width=p+"%";top.classList.toggle("show",h.scrollTop>600);var cur=0;secs.forEach(function(s,i){if(s&&s.getBoundingClientRect().top<140)cur=i});links.forEach(function(a,i){a.classList.toggle("active",i==cur)})},{passive:true});
+top.onclick=function(){scrollTo({top:0,behavior:"smooth"})};
+// mobile menu
+var b=document.getElementById("burger"),l=document.querySelector(".links");b.onclick=function(){l.classList.toggle("open")};links.forEach(function(a){a.addEventListener("click",function(){l.classList.remove("open")})});
+// cursor glow + portrait tilt (desktop only)
+if(matchMedia("(hover:hover)").matches){var g=document.getElementById("glow");addEventListener("pointermove",function(e){g.style.left=e.clientX+"px";g.style.top=e.clientY+"px"});var v=document.querySelector(".visual"),p=document.querySelector(".portrait");if(v&&p){v.addEventListener("pointermove",function(e){var r=v.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;p.style.transform="rotateY("+x*10+"deg) rotateX("+-y*8+"deg)"});v.addEventListener("pointerleave",function(){p.style.transform=""})}}
+})();
+</script>
 </body>
 </html>
